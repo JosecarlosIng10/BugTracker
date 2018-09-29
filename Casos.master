@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Principal.Master" AutoEventWireup="true" CodeBehind="Casos.master.cs" Inherits="BugTracker.Casos" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="contenidoContextual" runat="server">
+     <ul>
+                        <li><a href="/CasosWeb.aspx" >Administracion de Casos </a></li>
+         <p> &nbsp;</p>
+                        <li><a href="/CrearCasos.aspx" >Crear Caso </a></li>
+         <p> &nbsp;</p>
+                        <li><a href="/ModificarCasos.aspx">Modificar Caso</a></li>
+         <p> &nbsp;</p>
+                        <li><a href="/AsignarCasos.aspx">Asignar Caso</a></li>
+         <p> &nbsp;</p>
+                        <li><a href="/ResolverCasos.aspx">Resolver Caso</a></li>
+         <p> &nbsp;</p>
+                        <li><a href="/SituacionCasos.aspx">Cambiar Situacion</a></li>
+         <p> &nbsp;</p>
+                        <li><a href="/ConsultarCaso.aspx">Consultar Caso</a></li> 
+         <p> &nbsp;</p>
+                        <li><a href="/ReporteCasos.aspx">Reporte de Casos</a></li>
+         <p> &nbsp;</p>
+                        <li><a href="/HistorialCasos.aspx">Historial de Caso</a></li>
+                    </ul> 
+     
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="contenidoPrincipal" runat="server">
+     <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+        
+                    
+        
+                     </asp:ContentPlaceHolder>
+</asp:Content>

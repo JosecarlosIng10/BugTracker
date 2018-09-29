@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="BugTracker.Principal" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+    <link href="Temas/estilos.css" rel="stylesheet" />
+    <form id="form1" runat="server">
+   <div>
+
+        <div id ="cabecera">
+
+            <div id="contenidocabecera">
+
+            </div>
+
+            <div id="barracabecera">
+
+               
+                    <ul>
+                        <li><a href="/Inicio.aspx">Iniciar Sesion </a></li>
+                        <li><a href="/Principalweb.aspx">Pagina Principal </a></li>
+                        <li><a href="/UsuariosWeb.aspx">Administracion de Usuarios</a></li>
+                        <li><a href="/ProyectosWeb.aspx">Administracion de Proyectos</a></li>
+                        <li><a href="/CasosWeb.aspx">Administracion de Casos</a></li>
+                         <li><a href="/ReporteProyectos.aspx">Reportes</a></li>
+                         <li><a href="/cerrar.aspx">Cerrar Sesion</a></li>
+                         <li><a href="/Cambiar.aspx">Cambiar Contraseña</a></li>
+                    </ul> 
+               
+               
+
+            </div>
+
+            <div id="titulo">
+               
+                <h1>KBytesGT</h1>
+                <h2>BugTracker</h2>
+
+            </div>
+
+        </div>
+
+        <div id="bajo">
+            <div id="columnizq">
+                 <asp:ContentPlaceHolder ID="contenidoContextual" runat="server">
+        
+                 </asp:ContentPlaceHolder>
+            </div>
+
+             <div id="columncentro">
+
+                      <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+        
+                    
+        
+                     </asp:ContentPlaceHolder>
+
+           
+
+            </div>
+
+             <div id="columnder">
+
+            </div>
+
+             <div id="pie">
+                 <span>Web By Jose</span>
+            </div>
+
+
+        </div>
+       
+    </div>
+    </form>
+</body>
+</html>

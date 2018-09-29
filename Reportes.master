@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Principal.Master" AutoEventWireup="true" CodeBehind="Reportes.master.cs" Inherits="BugTracker.Reportes" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="Temas/estilos.css" rel="stylesheet" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="contenidoContextual" runat="server">
+      <ul>
+                        <li><a href="/ReporteProyectos.aspx" >Todos los Proyectos</a></li>
+                        <p> &nbsp;</p>
+                        <li><a href="/ReporteFiltros.aspx" >Buscar Proyectos con Filtros</a></li>
+                        <p> &nbsp;</p>
+                        <li><a href="/ReportarCasos.aspx">Reporte Casos</a></li>
+                       <p> &nbsp;</p>
+                        <li><a href="/ReporteCasosAvanzado.aspx">Reporte Casos Avanzado</a></li>
+           <p> &nbsp;</p>
+                        <li><a href="/CasosPorUsuario.aspx">Casos por usuario</a></li>
+                    </ul> 
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="contenidoPrincipal" runat="server">
+     <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+        
+                    
+        
+                     </asp:ContentPlaceHolder>
+</asp:Content>

@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Principal.Master" AutoEventWireup="true" CodeBehind="Proyectos.master.cs" Inherits="BugTracker.Proyectos" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="Temas/estilos.css" rel="stylesheet" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="contenidoContextual" runat="server">
+    
+     <ul>
+         
+                        <li><a href="/ProyectosWeb.aspx">Administracion de Proyectos </a></li>
+          <p> &nbsp;</p>
+     
+         
+                        <li><a href="/CargarProyecto.aspx" >Cargar Proyectos </a></li>
+                    
+     <p> &nbsp;</p>
+         <li><a href="/Vitacora.aspx" >Vitacora de Proyectos </a></li>
+                    
+     <p> &nbsp;</p>
+     
+         
+                        <li><a href="/CrearProyectos.aspx" >Crear Proyecto </a></li>
+                    
+     <p>&nbsp;</p>
+     
+         
+                        <li><a href="/ModificarProyectos.aspx">Modificar Proyecto</a></li>
+                    
+     <p> &nbsp;</p>
+     
+         
+                        <li><a href="/EliminarProyectos.aspx">Eliminar Proyecto</a></li>
+                    
+     <p> &nbsp;</p>
+     
+         
+                        <li><a href="/AsignarProyecto.aspx">Asignar Proyecto</a></li>
+                    </ul> 
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="contenidoPrincipal" runat="server">
+      <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+        
+                    
+        
+                     </asp:ContentPlaceHolder>
+</asp:Content>

@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Principal.Master" AutoEventWireup="true" CodeBehind="Usuarios.master.cs" Inherits="BugTracker.Usuarios" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="Temas/estilos.css" rel="stylesheet" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="contenidoContextual" runat="server">
+       <ul>
+                        <li><a href="/UsuariosWeb.aspx" >Administracion de Usuarios</a></li>
+                        <p> &nbsp;</p>
+                        <li><a href="/CrearUsuarios.aspx" >Crear Usuario </a></li>
+                        <p> &nbsp;</p>
+                        <li><a href="/ModificarUsuarios.aspx">Modificar Usuario</a></li>
+                       <p> &nbsp;</p>
+                        <li><a href="/EliminarUsuarios.aspx">Eliminar Usuario</a></li>
+                    </ul> 
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="contenidoPrincipal" runat="server">
+      <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+        
+                    
+        
+                     </asp:ContentPlaceHolder>
+
+</asp:Content>
